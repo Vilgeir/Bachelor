@@ -1,0 +1,64 @@
+{
+  "homepage": "http://vilgeir.github.io/doffindata",
+  "name": "doffindata",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@inovua/reactdatagrid-community": "^4.0.22",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/data-grid": "^4.0.0-alpha.18",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "algolia-react-autocomplete": "^1.0.5",
+    "algoliasearch": "^4.9.1",
+    "axios": "^0.21.1",
+    "dom-parser": "^0.1.6",
+    "firebase": "^8.2.6",
+    "firebase-functions": "^3.13.2",
+    "font-awesome": "^4.7.0",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "node-html-parser": "^3.1.4",
+    "object-path": "^0.11.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-instantsearch": "^6.10.3",
+    "react-instantsearch-dom": "^6.10.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
